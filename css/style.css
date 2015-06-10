@@ -1,0 +1,39 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+video {
+  /*position: fixed;*/
+  position: absolute;
+  right: 0;
+  top: 0;
+  /*z-index: 1;*/
+  width: 100%;
+  /*height: 640px;*/
+  /*overflow: hidden;*/
+}
+.bgmovie {
+	background-color: #003;
+	width: 100%;
+	height: 640px;
+	padding: 0;
+	margin: 0;
+	
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+	margin: auto;
+	padding: 256px;
+}
+.title_div {
+	background-color: rgba(0,0,0,0.8);
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
